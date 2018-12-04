@@ -15,6 +15,7 @@
     "test": "esy x Hello.exe"
   },
   "dependencies": {
+    "@opam/cconv": "0.4",
     "@opam/dune": "*",
     "@reason-native/console": "*",
     "@opam/lambda-term": "*",
@@ -24,6 +25,7 @@
     "ocaml": "~4.6.0"
   },
   "resolutions": {
+    "@opam/cconv": "c-cube/cconv:cconv.opam",
     "@opam/menhir": "20171013",
     "@opam/re": "1.8.0"
   },
